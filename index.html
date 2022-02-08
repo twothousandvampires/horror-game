@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id='mainsound'src="./music/mainsound.mp3" ></audio>
+    <div id='mist'><div id='ligth'></div></div>
+    <div  id='shop'>
+        <div id='shophead'>
+            <div>
+                <p id="playerInfo"></p>
+            </div>
+            <div>
+                <button id='go'>Next stage!</button>   
+            </div>
+        </div>
+        <div id="armory">
+            <div class="shopWrap">
+                <button id="attackUpgrade">Upgrade weapon<br><span style="color: blue;">Cost:40<span></span></button>
+                <img src="./icons/weapon.png" alt="armorUpgrade" style="width: 100px; height: 100px;">             
+            </div>
+            <div class="shopWrap">
+                <button id="armorUpgrade">Upgrade armour<br><span style="color: blue;">Cost:40<span></span></button>
+                <img src="./icons/armor.png" alt="armorUpgrade" style="width: 100px; height: 100px;">        
+            </div>
+            <div class="shopWrap">
+                <button id="torchUpgrade">Upgrade torch<br><span style="color: blue;">Cost:20<span></span></button>
+                <img src="./icons/torch.png" alt="armorUpgrade" style="width: 100px; height: 100px;">        
+            </div>
+        </div>
+        <div id="bodyTrain">
+            <div class="shopWrap">
+                <button id="lifeUpgrade">Upgrade life<br><span style="color: blue;">Cost:60<span></span></button>
+                <img src="./icons/life.png" alt="armorUpgrade" style="width: 100px; height: 100px;"> 
+            </div >
+            <div class="shopWrap">
+                <button id="manaUpgrade">Upgrade mana<br><span style="color: blue;">Cost:35<span></span></button>
+                <img src="./icons/mana.png" alt="armorUpgrade" style="width: 100px; height: 100px;"> 
+            </div>
+            <div class="shopWrap">
+                <button id="speedUpgrade">Upgrade speed<br><span style="color: blue;">Cost:25<span></span></button>
+                <img src="./icons/speed.png" alt="armorUpgrade" style="width: 100px; height: 100px;"> 
+            </div>
+        </div>   
+        <div id='magick'>
+            <div class="shopWrap">  
+                <button id="LearnDetonateBody">Learn Detonate body<br><span style="color: blue;">Cost:50<span>></button>
+                <img src="./icons/detonate dead.png" alt="armorUpgrade" style="width: 100px; height: 100px;"> 
+            </div>    
+            <div class="shopWrap">  
+                <button id="LearnFrostNova">Learn Frost Nova<br><span style="color: blue;">Cost:50<span></span></button>
+                <img src="./icons/frost nova.png" alt="armorUpgrade" style="width: 100px; height: 100px;"> 
+            </div>
+            <div class="shopWrap">  
+                <button id="LearnGodsBeam">Learn Gods beam<br><span style="color: blue;">Cost:50<span></span></button>
+                <img src="./icons/gods beam.png" alt="armorUpgrade" style="width: 100px; height: 100px;"> 
+            </div>  
+            <div class="shopWrap">  
+                <button id="LearnHeal">Learn Heal<br><span style="color: blue;">Cost:50<span></span></button>
+                <img src="./icons/heal.png" alt="armorUpgrade" style="width: 100px; height: 100px;"> 
+            </div>          
+        </div>
+       
+    </div>
+    <div id='hud'>
+        <div id='hp'></div>
+        <div id="skills"></div>
+        <div id="mana"></div>
+    </div>
+    <canvas width="1100px" height="500px"></canvas>   
+    <script src='main.js'></script>
+    
+</body>
+</html>
